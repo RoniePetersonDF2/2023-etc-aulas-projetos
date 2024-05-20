@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100vw;
+    height: 16vh;
+    background-color: #8524FA;
+    color: #fff;
+}
+
+.header__logotipo p, span {
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+.header__logotipo p {
+    padding: 1.5rem 0 0 2rem;
+}
+
+.header__logotipo a {
+    text-decoration: none;
+    color: #fff;
+}
+.header__logotipo a:hover {
+    color: gainsboro;
+    font-size: 2.2rem;
+}
+
+.header__logotipo span {
+    color: #0DCBD9;
+}
+
+.header__menu ul {
+    margin-top: 1.9rem;
+}
+.header__menu ul li  {
+    list-style: none;
+    display: inline;
+}
+
+.header__menu ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: 600;
+    padding: 0.8rem ;
+}
+
+.header__menu ul li a:hover{
+    color: gainsboro;
+    font-size: 1.5rem;
+}

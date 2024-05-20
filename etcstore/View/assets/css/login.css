@@ -1,0 +1,49 @@
+.main__login {
+    display: flex;
+    
+    color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+
+.div__login_lateral {
+    background-color: blueviolet;
+    width: 50vw;
+}
+
+.main__login h1, h2 {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.main__login h1 {
+    margin-bottom: 1.0rem;
+}
+
+.main__login h1 span {
+    font-weight: 600;
+    color:darkorange
+}
+
+.main__login .login__error {
+    margin-top: 2.3rem;
+    text-align: center;
+}
+
+.form__login {
+    margin-top: 100px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 50vw;
+}
+
+.form__login figure {
+    text-align: center;
+}
+.form__login img {
+    width: 80px;
+}
+
+.form__login .botao {
+    background-color: blueviolet;
+}
